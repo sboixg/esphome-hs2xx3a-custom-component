@@ -11,6 +11,10 @@ esphome:
   name: ${device_name}
   includes:
     - ${header_file}
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino    
 
 logger:
   logs:
